@@ -1,11 +1,11 @@
 /* style.css */
 .odd {
-    background-color: rgb(246, 179, 179);
+    background-color: rgb(243, 177, 205);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #second {
-    color: rgb(0, 0, 280);
+    color: #0000ff;
     font-size: 36px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 #fourth {
-    background-color: rgb(139, 234, 108);
+    background-color: hsl(121, 78%, 67%);
     font-size: 24px;
     font-weight: bold;
 }
