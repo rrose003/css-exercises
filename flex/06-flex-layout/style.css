@@ -47,7 +47,8 @@ ul {
   padding: 0;
 }
 
-a:link {
+a {
+  color: #666;
   text-decoration: none;
 }
 
