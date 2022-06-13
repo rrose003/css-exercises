@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -21,6 +22,10 @@ body {
 .footer {
   flex: 0;
   height: 72px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: #eee;
   color: darkmagenta;
   display: flex;
@@ -28,11 +33,28 @@ body {
   justify-content: center;
 }
 
+main {
+  display:flex;
+  flex: 1;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
   display: flex;
+  flex: 0 0 auto;
+  padding: 16px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 32px;
   flex: 1;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .card {
@@ -40,4 +62,8 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
+  flex: 0 0 auto;
+  width: 300px;
+  padding: 8px;
+  justify-content: flex-start;
 }
