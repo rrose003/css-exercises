@@ -22,14 +22,14 @@ body {
 
 .footer {
   background-color: #eeeeee;
-  flex: 0;
+  flex: 0; /* footer stays at bottom of page and doesn't grow */
 }
 
 .content {
   text-align: center;
   justify-content: space-between;
   padding: 16px;
-  flex: 1;
+  flex: 1; /* takes up available space forcing footer stays at bottom of page */
 }
 
 .left-links , .right-links {
